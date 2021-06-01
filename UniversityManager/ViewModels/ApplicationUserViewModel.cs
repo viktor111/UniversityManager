@@ -1,9 +1,7 @@
 ﻿using System;
-using Microsoft.AspNetCore.Identity;
-
-namespace UniversityManager.Models
+namespace UniversityManager.ViewModels
 {
-    public class ApplicationUser : IdentityUser
+    public class ApplicationUserViewModel
     {
         public string StudentNumber { get; set; }
 

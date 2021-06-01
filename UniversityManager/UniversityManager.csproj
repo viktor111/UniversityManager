@@ -24,9 +24,12 @@
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Data\Repositories\" />
+    <Folder Include="ViewModels\" />
+    <Folder Include="Data\Profiles\" />
   </ItemGroup>
 </Project>
