@@ -1,10 +1,10 @@
 ﻿using System;
+using Microsoft.AspNetCore.Identity;
+
 namespace UniversityManager.Models
 {
-    public class ApplicationUser
+    public class ApplicationUser : IdentityUser
     {
-        public ApplicationUser()
-        {
-        }
+        public string StudentNumber { get; set; }
     }
 }
