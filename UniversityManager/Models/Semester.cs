@@ -26,7 +26,7 @@ namespace UniversityManager.Models
         public virtual IEnumerable<Class> Classes { get; set; }
             = new HashSet<Class>();
 
-        public virtual IEnumerable<Student> EnrolledStudents { get; set; }
-            = new HashSet<Student>();
+        public virtual IEnumerable<ApplicationUser> EnrolledStudents { get; set; }
+            = new HashSet<ApplicationUser>();
     }
 }

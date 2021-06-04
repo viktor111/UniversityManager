@@ -2,6 +2,7 @@
 using AutoMapper;
 using UniversityManager.Models;
 using UniversityManager.ViewModels;
+using UniversityManager.ViewModels.Student;
 
 namespace UniversityManager.Data.Profiles
 {
@@ -9,7 +10,7 @@ namespace UniversityManager.Data.Profiles
     {
         public ApplicationUserProfile()
         {
-            CreateMap<ApplicationUser, ApplicationUserViewModel>();
+            CreateMap<ApplicationUser, StudentViewModel>();
         }
     }
 }

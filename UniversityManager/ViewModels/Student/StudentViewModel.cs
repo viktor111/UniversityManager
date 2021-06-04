@@ -1,8 +1,10 @@
 ﻿using System;
-namespace UniversityManager.ViewModels
+namespace UniversityManager.ViewModels.Student
 {
-    public class ApplicationUserViewModel
+    public class StudentViewModel
     {
+        public int Id { get; set; }
+
         public string StudentNumber { get; set; }
 
         public double OverallScore { get; set; }

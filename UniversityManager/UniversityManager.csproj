@@ -31,5 +31,7 @@
     <Folder Include="Data\Repositories\" />
     <Folder Include="ViewModels\" />
     <Folder Include="Data\Profiles\" />
+    <Folder Include="Views\Student\" />
+    <Folder Include="ViewModels\Student\" />
   </ItemGroup>
 </Project>
